@@ -1,0 +1,23 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Node API to perform CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vallurisundeep/NodeAPI.git"
+  },
+  "keywords": [
+    "Node",
+    "API"
+  ],
+  "author": "Sundeep Valluri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vallurisundeep/NodeAPI/issues"
+  },
+  "homepage": "https://github.com/vallurisundeep/NodeAPI#readme"
+}

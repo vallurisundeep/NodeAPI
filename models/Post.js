@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
-const { notify } = require('../routes/posts');
-
+ 
 const PostSchema=mongoose.Schema({
 
      

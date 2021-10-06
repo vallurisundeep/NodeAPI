@@ -6,12 +6,15 @@ const Post=require('../models/Post');
 
 
 router.get('/',async(req,res)=>{
-    debugger
+    
     try{
+         
         const posts=await Post.find();
         res.json(posts);
+        console.log(res)
     }catch(err){
         res.json({message:err})
+        console.log(res)
     }   
     
 });
